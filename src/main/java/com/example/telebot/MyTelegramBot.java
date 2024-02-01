@@ -16,8 +16,8 @@ import org.telegram.telegrambots.meta.generics.LongPollingBot;
 @Component
 public class MyTelegramBot extends TelegramLongPollingBot {
 	
-	private String botToken = "6874402777:AAHGytw6e2qR_MqIun7cbA8HCAwu77W2RNg";
-	private String botUserName = "ex_send_images_bot";
+	private String botToken = "YOUR_BOT_TOKEN";
+	private String botUserName = "YOUR_BOT_USER_NAME";
 	private String pathRandomImage = "https://random.imagecdn.app/500/300";
 
     @Override
